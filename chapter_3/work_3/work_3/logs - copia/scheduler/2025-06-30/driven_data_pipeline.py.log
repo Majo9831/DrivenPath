@@ -1,0 +1,1106 @@
+[2025-06-30T19:58:25.056+0000] {processor.py:186} INFO - Started process (PID=1338) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:25.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T19:58:25.062+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:58:25.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:25.118+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:58:25.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T19:58:25.121+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:25.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.184 seconds
+[2025-06-30T19:58:55.320+0000] {processor.py:186} INFO - Started process (PID=1345) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:55.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T19:58:55.325+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:58:55.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:55.358+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:58:55.352+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T19:58:55.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:58:55.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.078 seconds
+[2025-06-30T19:59:25.622+0000] {processor.py:186} INFO - Started process (PID=1352) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:25.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T19:59:25.625+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:59:25.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:25.659+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:59:25.653+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T19:59:25.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:25.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.076 seconds
+[2025-06-30T19:59:56.019+0000] {processor.py:186} INFO - Started process (PID=1359) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:56.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T19:59:56.023+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:59:56.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:56.063+0000] {logging_mixin.py:190} INFO - [2025-06-30T19:59:56.056+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T19:59:56.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T19:59:56.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.094 seconds
+[2025-06-30T20:00:26.297+0000] {processor.py:186} INFO - Started process (PID=1366) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:26.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:00:26.301+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:00:26.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:26.331+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:00:26.326+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:00:26.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:26.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.072 seconds
+[2025-06-30T20:00:56.671+0000] {processor.py:186} INFO - Started process (PID=1373) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:56.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:00:56.676+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:00:56.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:56.724+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:00:56.717+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:00:56.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:00:56.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.093 seconds
+[2025-06-30T20:01:26.960+0000] {processor.py:186} INFO - Started process (PID=1380) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:26.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:01:26.964+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:01:26.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:26.997+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:01:26.992+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:01:26.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:27.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:01:57.326+0000] {processor.py:186} INFO - Started process (PID=1387) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:57.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:01:57.330+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:01:57.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:57.360+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:01:57.355+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:01:57.362+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:01:57.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.070 seconds
+[2025-06-30T20:02:27.618+0000] {processor.py:186} INFO - Started process (PID=1394) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:27.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:02:27.623+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:02:27.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:27.658+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:02:27.653+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:02:27.660+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:27.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.083 seconds
+[2025-06-30T20:02:57.937+0000] {processor.py:186} INFO - Started process (PID=1401) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:57.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:02:57.941+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:02:57.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:57.981+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:02:57.974+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:02:57.984+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:02:58.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.095 seconds
+[2025-06-30T20:03:28.290+0000] {processor.py:186} INFO - Started process (PID=1408) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:28.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:03:28.293+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:03:28.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:28.322+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:03:28.317+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:03:28.324+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:28.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:03:58.583+0000] {processor.py:186} INFO - Started process (PID=1415) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:58.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:03:58.589+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:03:58.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:58.622+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:03:58.616+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:03:58.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:03:58.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:04:28.909+0000] {processor.py:186} INFO - Started process (PID=1422) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:28.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:04:28.913+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:04:28.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:28.943+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:04:28.938+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:04:28.945+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:28.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.067 seconds
+[2025-06-30T20:04:59.214+0000] {processor.py:186} INFO - Started process (PID=1429) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:59.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:04:59.218+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:04:59.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:59.249+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:04:59.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:04:59.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:04:59.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.070 seconds
+[2025-06-30T20:05:29.540+0000] {processor.py:186} INFO - Started process (PID=1436) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:29.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:05:29.543+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:05:29.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:29.573+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:05:29.568+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:05:29.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:29.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.069 seconds
+[2025-06-30T20:05:59.831+0000] {processor.py:186} INFO - Started process (PID=1443) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:59.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:05:59.835+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:05:59.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:59.871+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:05:59.865+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:05:59.874+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:05:59.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:06:30.170+0000] {processor.py:186} INFO - Started process (PID=1450) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:06:30.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:06:30.174+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:06:30.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:06:30.205+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:06:30.200+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:06:30.207+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:06:30.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.070 seconds
+[2025-06-30T20:07:00.458+0000] {processor.py:186} INFO - Started process (PID=1458) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:00.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:07:00.462+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:07:00.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:00.498+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:07:00.492+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:07:00.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:00.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.077 seconds
+[2025-06-30T20:07:30.783+0000] {processor.py:186} INFO - Started process (PID=1465) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:30.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:07:30.787+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:07:30.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:30.819+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:07:30.814+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:07:30.820+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:07:30.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.073 seconds
+[2025-06-30T20:08:01.070+0000] {processor.py:186} INFO - Started process (PID=1472) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:01.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:08:01.073+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:08:01.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:01.102+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:08:01.097+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:08:01.103+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:01.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.067 seconds
+[2025-06-30T20:08:31.428+0000] {processor.py:186} INFO - Started process (PID=1479) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:31.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:08:31.432+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:08:31.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:31.465+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:08:31.460+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:08:31.467+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:08:31.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:09:01.726+0000] {processor.py:186} INFO - Started process (PID=1486) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:09:01.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:09:01.731+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:09:01.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:09:01.773+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:09:01.765+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:09:01.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:09:01.810+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.095 seconds
+[2025-06-30T20:44:39.990+0000] {processor.py:186} INFO - Started process (PID=1487) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:44:39.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:44:40.004+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:44:39.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:44:40.489+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:44:40.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:44:40.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:44:40.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.677 seconds
+[2025-06-30T20:45:11.705+0000] {processor.py:186} INFO - Started process (PID=1494) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:11.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:45:11.710+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:45:11.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:11.744+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:45:11.737+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:45:11.746+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:11.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.076 seconds
+[2025-06-30T20:45:42.012+0000] {processor.py:186} INFO - Started process (PID=1501) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:42.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:45:42.019+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:45:42.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:42.062+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:45:42.056+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:45:42.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:45:42.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.098 seconds
+[2025-06-30T20:46:12.327+0000] {processor.py:186} INFO - Started process (PID=1508) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:12.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:46:12.331+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:46:12.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:12.365+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:46:12.359+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:46:12.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:12.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.084 seconds
+[2025-06-30T20:46:42.688+0000] {processor.py:186} INFO - Started process (PID=1515) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:42.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:46:42.691+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:46:42.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:42.720+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:46:42.716+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 12, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:46:42.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:46:42.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.066 seconds
+[2025-06-30T20:47:13.068+0000] {processor.py:186} INFO - Started process (PID=1522) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:13.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:47:13.073+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:47:13.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:13.182+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:47:13.171+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:47:13.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:13.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.174 seconds
+[2025-06-30T20:47:43.358+0000] {processor.py:186} INFO - Started process (PID=1529) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:43.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:47:43.362+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:47:43.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:43.398+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:47:43.392+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:47:43.401+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:47:43.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.092 seconds
+[2025-06-30T20:48:13.648+0000] {processor.py:186} INFO - Started process (PID=1536) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:13.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:48:13.652+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:48:13.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:13.709+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:48:13.697+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:48:13.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:13.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.110 seconds
+[2025-06-30T20:48:44.011+0000] {processor.py:186} INFO - Started process (PID=1543) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:44.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:48:44.015+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:48:44.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:44.050+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:48:44.044+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:48:44.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:48:44.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.073 seconds
+[2025-06-30T20:49:14.319+0000] {processor.py:186} INFO - Started process (PID=1550) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:14.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:49:14.322+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:49:14.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:14.356+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:49:14.351+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:49:14.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:14.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.074 seconds
+[2025-06-30T20:49:44.695+0000] {processor.py:186} INFO - Started process (PID=1557) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:44.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:49:44.698+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:49:44.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:44.728+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:49:44.722+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:49:44.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:49:44.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.068 seconds
+[2025-06-30T20:50:14.999+0000] {processor.py:186} INFO - Started process (PID=1564) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:15.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:50:15.002+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:50:15.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:15.031+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:50:15.027+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:50:15.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:15.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.068 seconds
+[2025-06-30T20:50:45.301+0000] {processor.py:186} INFO - Started process (PID=1571) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:45.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:50:45.307+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:50:45.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:45.340+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:50:45.335+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:50:45.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:50:45.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.079 seconds
+[2025-06-30T20:51:15.602+0000] {processor.py:186} INFO - Started process (PID=1578) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:15.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:51:15.605+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:51:15.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:15.645+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:51:15.640+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:51:15.647+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:15.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.079 seconds
+[2025-06-30T20:51:45.927+0000] {processor.py:186} INFO - Started process (PID=1585) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:45.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:51:45.931+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:51:45.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:45.967+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:51:45.961+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:51:45.969+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:51:46.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.084 seconds
+[2025-06-30T20:52:16.215+0000] {processor.py:186} INFO - Started process (PID=1592) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:16.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:52:16.218+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:52:16.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:16.250+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:52:16.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:52:16.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:16.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.071 seconds
+[2025-06-30T20:52:46.568+0000] {processor.py:186} INFO - Started process (PID=1599) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:46.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:52:46.572+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:52:46.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:46.613+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:52:46.604+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:52:46.616+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:52:46.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.093 seconds
+[2025-06-30T20:53:16.858+0000] {processor.py:186} INFO - Started process (PID=1606) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:16.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:53:16.862+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:53:16.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:16.891+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:53:16.887+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:53:16.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:16.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:53:47.215+0000] {processor.py:186} INFO - Started process (PID=1613) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:47.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:53:47.219+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:53:47.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:47.246+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:53:47.241+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:53:47.248+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:53:47.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.064 seconds
+[2025-06-30T20:54:17.506+0000] {processor.py:186} INFO - Started process (PID=1620) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:17.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:54:17.509+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:54:17.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:17.537+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:54:17.533+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:54:17.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:17.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.067 seconds
+[2025-06-30T20:54:47.874+0000] {processor.py:186} INFO - Started process (PID=1627) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:47.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:54:47.878+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:54:47.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:47.906+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:54:47.901+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:54:47.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:54:47.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.078 seconds
+[2025-06-30T20:55:18.180+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:18.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:55:18.183+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:55:18.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:18.214+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:55:18.208+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:55:18.216+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:18.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:55:48.527+0000] {processor.py:186} INFO - Started process (PID=1641) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:48.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:55:48.533+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:55:48.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:48.565+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:55:48.560+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:55:48.566+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:55:48.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.086 seconds
+[2025-06-30T20:56:18.844+0000] {processor.py:186} INFO - Started process (PID=1648) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:18.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:56:18.848+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:56:18.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:18.880+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:56:18.874+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:56:18.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:18.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.079 seconds
+[2025-06-30T20:56:49.165+0000] {processor.py:186} INFO - Started process (PID=1655) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:49.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:56:49.169+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:56:49.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:49.198+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:56:49.194+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:56:49.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:56:49.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.068 seconds
+[2025-06-30T20:57:19.591+0000] {processor.py:186} INFO - Started process (PID=1662) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:19.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:57:19.611+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:57:19.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:19.735+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:57:19.718+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:57:19.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:19.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.308 seconds
+[2025-06-30T20:57:50.113+0000] {processor.py:186} INFO - Started process (PID=1669) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:50.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:57:50.117+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:57:50.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:50.150+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:57:50.145+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:57:50.152+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:57:50.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.077 seconds
+[2025-06-30T20:58:20.726+0000] {processor.py:186} INFO - Started process (PID=1676) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:20.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:58:20.729+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:20.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:20.762+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:20.757+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:58:20.767+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:20.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.081 seconds
+[2025-06-30T20:58:21.808+0000] {processor.py:186} INFO - Started process (PID=1677) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:21.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:58:21.815+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:21.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:21.863+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:21.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:58:21.866+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:21.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.095 seconds
+[2025-06-30T20:58:22.919+0000] {processor.py:186} INFO - Started process (PID=1678) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:22.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:58:22.929+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:22.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:22.992+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:22.987+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:58:22.994+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:23.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.131 seconds
+[2025-06-30T20:58:53.263+0000] {processor.py:186} INFO - Started process (PID=1685) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:53.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:58:53.267+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:53.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:53.299+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:58:53.293+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:58:53.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:58:53.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T20:59:23.635+0000] {processor.py:186} INFO - Started process (PID=1692) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:23.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:59:23.639+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:59:23.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:23.667+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:59:23.663+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:59:23.669+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:23.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.078 seconds
+[2025-06-30T20:59:53.986+0000] {processor.py:186} INFO - Started process (PID=1699) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:53.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T20:59:53.990+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:59:53.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:54.019+0000] {logging_mixin.py:190} INFO - [2025-06-30T20:59:54.014+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T20:59:54.021+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T20:59:54.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.069 seconds
+[2025-06-30T21:00:24.294+0000] {processor.py:186} INFO - Started process (PID=1706) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:24.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:00:24.298+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:00:24.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:24.330+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:00:24.325+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:00:24.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:24.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.077 seconds
+[2025-06-30T21:00:54.616+0000] {processor.py:186} INFO - Started process (PID=1713) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:54.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:00:54.621+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:00:54.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:54.656+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:00:54.650+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:00:54.658+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:00:54.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.082 seconds
+[2025-06-30T21:01:24.921+0000] {processor.py:186} INFO - Started process (PID=1720) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:24.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:01:24.926+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:01:24.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:24.959+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:01:24.953+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:01:24.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:24.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T21:01:45.171+0000] {processor.py:186} INFO - Started process (PID=1727) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:45.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:01:45.175+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:01:45.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:45.215+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:01:45.210+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:01:45.217+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:01:45.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.077 seconds
+[2025-06-30T21:04:22.672+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:22.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:04:22.693+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:04:22.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:22.770+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:04:22.763+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:04:22.773+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:22.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.193 seconds
+[2025-06-30T21:04:48.256+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:48.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:04:48.266+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:04:48.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:48.333+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:04:48.324+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:04:48.335+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:04:48.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.120 seconds
+[2025-06-30T21:05:18.586+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:18.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:05:18.591+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:05:18.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:18.622+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:05:18.616+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:05:18.623+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:18.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.076 seconds
+[2025-06-30T21:05:48.942+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:48.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:05:48.947+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:05:48.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:48.981+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:05:48.976+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:05:48.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:05:49.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.072 seconds
+[2025-06-30T21:06:19.234+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:19.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:06:19.238+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:06:19.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:19.268+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:06:19.263+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:06:19.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:19.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.071 seconds
+[2025-06-30T21:06:49.564+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:49.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:06:49.569+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:06:49.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:49.601+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:06:49.595+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:06:49.603+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:06:49.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T21:07:19.869+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:19.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:07:19.874+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:07:19.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:19.906+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:07:19.900+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:07:19.908+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:19.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.075 seconds
+[2025-06-30T21:07:50.627+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:50.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:07:50.633+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:07:50.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:50.671+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:07:50.665+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:07:50.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:07:50.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.088 seconds
+[2025-06-30T21:08:20.920+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:08:20.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T21:08:20.926+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:08:20.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:08:20.959+0000] {logging_mixin.py:190} INFO - [2025-06-30T21:08:20.954+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T21:08:20.962+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T21:08:20.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.077 seconds
+[2025-06-30T23:06:07.110+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:07.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:06:07.115+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:06:07.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:07.205+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:06:07.196+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:06:07.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:07.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.158 seconds
+[2025-06-30T23:06:37.657+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:37.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:06:37.688+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:06:37.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:37.793+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:06:37.781+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:06:37.798+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:06:37.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.250 seconds
+[2025-06-30T23:07:08.172+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:08.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:07:08.187+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:07:08.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:08.271+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:07:08.260+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:07:08.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:08.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.224 seconds
+[2025-06-30T23:07:38.669+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:38.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:07:38.680+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:07:38.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:38.753+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:07:38.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:07:38.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:07:38.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.161 seconds
+[2025-06-30T23:08:09.157+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:09.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:08:09.169+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:08:09.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:09.222+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:08:09.211+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:08:09.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:09.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.137 seconds
+[2025-06-30T23:08:39.839+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:39.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:08:39.848+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:08:39.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:39.901+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:08:39.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:08:39.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:08:39.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.126 seconds
+[2025-06-30T23:09:10.389+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:10.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:09:10.399+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:09:10.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:10.462+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:09:10.451+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:09:10.467+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:10.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.140 seconds
+[2025-06-30T23:09:40.920+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:40.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:09:40.929+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:09:40.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:40.990+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:09:40.979+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:09:40.994+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:09:41.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.128 seconds
+[2025-06-30T23:10:11.544+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:11.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:10:11.552+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:10:11.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:11.611+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:10:11.600+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:10:11.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:11.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.125 seconds
+[2025-06-30T23:10:42.220+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:42.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:10:42.228+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:10:42.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:43.723+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:10:43.714+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:10:43.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:10:43.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 1.571 seconds
+[2025-06-30T23:11:14.268+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:11:14.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/driven_data_pipeline.py for tasks to queue
+[2025-06-30T23:11:14.275+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:11:14.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:11:14.327+0000] {logging_mixin.py:190} INFO - [2025-06-30T23:11:14.318+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/driven_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/driven_data_pipeline.py", line 11, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-06-30T23:11:14.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/driven_data_pipeline.py
+[2025-06-30T23:11:14.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/driven_data_pipeline.py took 0.116 seconds

@@ -1,0 +1,24 @@
+[2025-07-02T15:31:41.914+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-02T15:31:41.953+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.extract_raw_data manual__2025-07-02T15:30:09.534347+00:00 [queued]>
+[2025-07-02T15:31:41.970+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.extract_raw_data manual__2025-07-02T15:30:09.534347+00:00 [queued]>
+[2025-07-02T15:31:41.971+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-07-02T15:31:41.997+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_raw_data> on 2025-07-02 15:30:09.534347+00:00
+[2025-07-02T15:31:42.020+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=242) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-02T15:31:42.024+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_raw_data_pipeline', 'extract_raw_data', 'manual__2025-07-02T15:30:09.534347+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/driven_data_pipeline.py', '--cfg-path', '/tmp/tmprqvknhyv']
+[2025-07-02T15:31:42.026+0000] {standard_task_runner.py:72} INFO - Started process 246 to run task
+[2025-07-02T15:31:42.027+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask extract_raw_data
+[2025-07-02T15:31:42.196+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_raw_data_pipeline.extract_raw_data manual__2025-07-02T15:30:09.534347+00:00 [running]> on host 65c754792d38
+[2025-07-02T15:31:42.371+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_raw_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T15:30:09.534347+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-02T15:30:09.534347+00:00'
+[2025-07-02T15:31:42.373+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-02T15:31:42.421+0000] {driven_data_pipeline.py:26} INFO - Created synthetic data for MX country code.
+[2025-07-02T15:31:43.013+0000] {driven_data_pipeline.py:64} INFO - Written 100 records to the CSV file.
+[2025-07-02T15:31:43.196+0000] {driven_data_pipeline.py:71} INFO - Added UUID to the dataset.
+[2025-07-02T15:31:43.228+0000] {driven_data_pipeline.py:80} INFO - Updated accessed timestamp.
+[2025-07-02T15:31:43.229+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-02T15:31:43.249+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-02T15:31:43.250+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_raw_data_pipeline, task_id=extract_raw_data, run_id=manual__2025-07-02T15:30:09.534347+00:00, execution_date=20250702T153009, start_date=20250702T153141, end_date=20250702T153143
+[2025-07-02T15:31:43.304+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-02T15:31:43.349+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-02T15:31:43.353+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

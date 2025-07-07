@@ -1,0 +1,88 @@
+[2025-07-03T04:07:00.042+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-03T04:07:00.083+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [queued]>
+[2025-07-03T04:07:00.099+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [queued]>
+[2025-07-03T04:07:00.100+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-07-03T04:07:00.127+0000] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): load_raw_data> on 2025-07-02 07:58:00+00:00
+[2025-07-03T04:07:00.147+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=199) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-03T04:07:00.154+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_raw_data_pipeline', 'load_raw_data', 'scheduled__2025-07-02T07:58:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/driven_data_pipeline.py', '--cfg-path', '/tmp/tmpjvrja4rp']
+[2025-07-03T04:07:00.162+0000] {standard_task_runner.py:72} INFO - Started process 202 to run task
+[2025-07-03T04:07:00.162+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask load_raw_data
+[2025-07-03T04:07:00.341+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [running]> on host d1f480c47f95
+[2025-07-03T04:07:00.559+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_raw_data_pipeline' AIRFLOW_CTX_TASK_ID='load_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T07:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-02T07:58:00+00:00'
+[2025-07-03T04:07:00.563+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-03T04:07:00.591+0000] {sql.py:266} INFO - Executing: 
+    COPY driven_raw.raw_batch_data(
+        person_name, user_name, email, personal_number, birth_date,
+        address, phone, mac_address, ip_address, iban, accessed_at,
+        session_duration, download_speed, upload_speed, consumed_traffic,
+        unique_id
+    )
+    FROM '/opt/data/raw_data.csv'
+    DELIMITER ','
+    CSV HEADER;
+    
+[2025-07-03T04:07:00.614+0000] {base.py:84} INFO - Retrieving connection 'postgres_conn'
+[2025-07-03T04:07:00.633+0000] {base.py:84} INFO - Retrieving connection 'postgres_conn'
+[2025-07-03T04:07:00.646+0000] {sql.py:509} INFO - Running statement: 
+    COPY driven_raw.raw_batch_data(
+        person_name, user_name, email, personal_number, birth_date,
+        address, phone, mac_address, ip_address, iban, accessed_at,
+        session_duration, download_speed, upload_speed, consumed_traffic,
+        unique_id
+    )
+    FROM '/opt/data/raw_data.csv'
+    DELIMITER ','
+    CSV HEADER;
+    , parameters: None
+[2025-07-03T04:07:00.666+0000] {sql.py:518} INFO - Rows affected: 100
+[2025-07-03T04:07:00.698+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-03T04:07:00.699+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_raw_data_pipeline, task_id=load_raw_data, run_id=scheduled__2025-07-02T07:58:00+00:00, execution_date=20250702T075800, start_date=20250703T040700, end_date=20250703T040700
+[2025-07-03T04:07:00.751+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-03T04:07:00.795+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-03T04:07:00.800+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-07-03T04:55:22.286+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-03T04:55:22.315+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [queued]>
+[2025-07-03T04:55:22.334+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [queued]>
+[2025-07-03T04:55:22.335+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-07-03T04:55:22.398+0000] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): load_raw_data> on 2025-07-02 07:58:00+00:00
+[2025-07-03T04:55:22.415+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=161) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-03T04:55:22.418+0000] {standard_task_runner.py:72} INFO - Started process 165 to run task
+[2025-07-03T04:55:22.418+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_raw_data_pipeline', 'load_raw_data', 'scheduled__2025-07-02T07:58:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/driven_data_pipeline.py', '--cfg-path', '/tmp/tmp_k9v5pzf']
+[2025-07-03T04:55:22.421+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask load_raw_data
+[2025-07-03T04:55:22.522+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_raw_data_pipeline.load_raw_data scheduled__2025-07-02T07:58:00+00:00 [running]> on host b5e71f0a4cd6
+[2025-07-03T04:55:22.656+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_raw_data_pipeline' AIRFLOW_CTX_TASK_ID='load_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T07:58:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-02T07:58:00+00:00'
+[2025-07-03T04:55:22.658+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-03T04:55:22.678+0000] {sql.py:266} INFO - Executing: 
+    COPY driven_raw.raw_batch_data(
+        person_name, user_name, email, personal_number, birth_date,
+        address, phone, mac_address, ip_address, iban, accessed_at,
+        session_duration, download_speed, upload_speed, consumed_traffic,
+        unique_id
+    )
+    FROM '/opt/data/raw_data.csv'
+    DELIMITER ','
+    CSV HEADER;
+    
+[2025-07-03T04:55:22.694+0000] {base.py:84} INFO - Retrieving connection 'postgres_conn'
+[2025-07-03T04:55:22.712+0000] {base.py:84} INFO - Retrieving connection 'postgres_conn'
+[2025-07-03T04:55:22.722+0000] {sql.py:509} INFO - Running statement: 
+    COPY driven_raw.raw_batch_data(
+        person_name, user_name, email, personal_number, birth_date,
+        address, phone, mac_address, ip_address, iban, accessed_at,
+        session_duration, download_speed, upload_speed, consumed_traffic,
+        unique_id
+    )
+    FROM '/opt/data/raw_data.csv'
+    DELIMITER ','
+    CSV HEADER;
+    , parameters: None
+[2025-07-03T04:55:22.733+0000] {sql.py:518} INFO - Rows affected: 100
+[2025-07-03T04:55:22.752+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-03T04:55:22.752+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_raw_data_pipeline, task_id=load_raw_data, run_id=scheduled__2025-07-02T07:58:00+00:00, execution_date=20250702T075800, start_date=20250703T045522, end_date=20250703T045522
+[2025-07-03T04:55:22.798+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-03T04:55:22.839+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-03T04:55:22.842+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
